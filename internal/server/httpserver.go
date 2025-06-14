@@ -7,11 +7,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/JordanMarcelino/go-gin-starter/internal/config"
-	"github.com/JordanMarcelino/go-gin-starter/internal/middleware"
-	"github.com/JordanMarcelino/go-gin-starter/internal/pkg/logger"
-	"github.com/JordanMarcelino/go-gin-starter/internal/pkg/utils/validationutils"
-	"github.com/JordanMarcelino/go-gin-starter/internal/provider"
+	"auth-service/internal/config"
+	"auth-service/internal/middleware"
+	"auth-service/internal/pkg/logger"
+	"auth-service/internal/pkg/utils/validationutils"
+	"auth-service/internal/provider"
+
 	"github.com/gin-contrib/cors"
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"

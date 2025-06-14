@@ -3,9 +3,10 @@ package middleware
 import (
 	"strings"
 
-	"github.com/JordanMarcelino/go-gin-starter/internal/constant"
-	"github.com/JordanMarcelino/go-gin-starter/internal/pkg/httperror"
-	"github.com/JordanMarcelino/go-gin-starter/internal/pkg/utils/jwtutils"
+	"auth-service/internal/constant"
+	"auth-service/internal/pkg/httperror"
+	"auth-service/internal/pkg/utils/jwtutils"
+
 	"github.com/gin-gonic/gin"
 )
 

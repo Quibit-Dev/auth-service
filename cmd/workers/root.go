@@ -7,9 +7,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/JordanMarcelino/go-gin-starter/internal/config"
-	"github.com/JordanMarcelino/go-gin-starter/internal/pkg/logger"
-	"github.com/JordanMarcelino/go-gin-starter/internal/provider"
+	"auth-service/internal/config"
+	"auth-service/internal/pkg/logger"
+	"auth-service/internal/provider"
+
 	"github.com/spf13/cobra"
 )
 

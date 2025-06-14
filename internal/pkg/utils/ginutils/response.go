@@ -3,8 +3,9 @@ package ginutils
 import (
 	"net/http"
 
-	"github.com/JordanMarcelino/go-gin-starter/internal/constant"
-	"github.com/JordanMarcelino/go-gin-starter/internal/dto"
+	"auth-service/internal/constant"
+	"auth-service/internal/dto"
+
 	"github.com/gin-gonic/gin"
 )
 

@@ -1,8 +1,9 @@
 package provider
 
 import (
-	"github.com/JordanMarcelino/go-gin-starter/internal/config"
-	"github.com/JordanMarcelino/go-gin-starter/internal/database"
+	"auth-service/internal/config"
+	"auth-service/internal/database"
+
 	"github.com/jmoiron/sqlx"
 )
 

@@ -7,7 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/JordanMarcelino/go-gin-starter/internal/config"
+	"auth-service/internal/config"
+
 	"github.com/rs/zerolog"
 )
 

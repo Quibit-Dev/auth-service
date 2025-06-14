@@ -4,7 +4,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/JordanMarcelino/go-gin-starter/internal/pkg/constant"
+	"auth-service/internal/pkg/constant"
 )
 
 func NewServerError() *ResponseError {

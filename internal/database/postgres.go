@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/JordanMarcelino/go-gin-starter/internal/config"
-	"github.com/JordanMarcelino/go-gin-starter/internal/pkg/logger"
+	"auth-service/internal/config"
+	"auth-service/internal/pkg/logger"
+
 	_ "github.com/jackc/pgx/v5/stdlib"
 	"github.com/jmoiron/sqlx"
 )

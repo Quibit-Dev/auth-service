@@ -8,11 +8,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/JordanMarcelino/go-gin-starter/internal/constant"
-	"github.com/JordanMarcelino/go-gin-starter/internal/dto"
-	pkgconstant "github.com/JordanMarcelino/go-gin-starter/internal/pkg/constant"
-	"github.com/JordanMarcelino/go-gin-starter/internal/pkg/httperror"
-	"github.com/JordanMarcelino/go-gin-starter/internal/pkg/utils/validationutils"
+	"auth-service/internal/constant"
+	"auth-service/internal/dto"
+	pkgconstant "auth-service/internal/pkg/constant"
+	"auth-service/internal/pkg/httperror"
+	"auth-service/internal/pkg/utils/validationutils"
+
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
 )
